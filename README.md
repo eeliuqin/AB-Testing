@@ -4,8 +4,13 @@ click [here](https://nbviewer.org/github/eeliuqin/data-analysis/blob/main/AB-Tes
 ### Experiment
 
 Udacity tested a change where if the student clicked start free trial, they saw a pop up modal that asked them how much time they had available to devote to the course. The critical value was 5 hours:
-    - If the student indicated 5 or more hours per week, they would be taken through the checkout process as usual.
-    - If they indicated fewer than 5 hours per week, a message would appear indicating that Udacity courses usually require a greater time commitment for successful completion, and suggesting that the student might like to access the course materials for free. At this point, the student would have the option to continue enrolling in the free trial, or access the course materials for free instead.
+
+- If the student indicated 5 or more hours per week, they would be taken through the checkout process as usual.
+- If they indicated fewer than 5 hours per week, a message would appear indicating that Udacity courses usually require a greater time commitment for successful completion, and suggesting that the student might like to access the course materials for free. At this point, the student would have the option to continue enrolling in the free trial, or access the course materials for free instead.
+
+The workflow:
+
+<div align="center"><img alt="Udacity Modal" src="images/Udacity-AB-Testing-User-Flow.png" width="60%"></div>
 
 ### Hypothesis 
 
